@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+body,
+input {
+    font-family: Tahoma, Verdana, Arial, Helvetica;
+    color: #222;
+}
+
+a {
+    color: #002B36;
+}
+
+.wrapper {
+    max-width: 980px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    background-color: #3E3E3E;
+    text-align: right;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    
+}
+
+.header-menu ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+    padding: 16px 15px;
+    line-height: 48px;
+}
+
+.header-menu ul li a:hover {
+    background-color: #222;
+}
+
+.content {
+    padding: 48px 0;
+    min-height: calc(100vh - 192px);
+}
+
+h1,
+h3 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.sign-form,
+.sign-form input,
+.sign-form label,
+.error-box {
+    width: 248px;
+    font-size: 13px;
+}
+
+.sign-form,
+.sign-form input,
+.error-box {
+    border-radius: 3px;
+}
+
+.sign-form,
+.sign-form input[type=text],
+.sign-form input[type=password] {
+    border: 1px #D8DEE2 solid;
+}
+
+.sign-form,
+.error-box {
+    margin: 0 auto;
+}
+
+.sign-form {
+    background-color: #FFF;
+    padding: 20px 25px 0 25px;
+}
+
+.sign-form input {
+    box-sizing: border-box;
+    padding: 0.5em;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.sign-form input[type=text],
+.sign-form input[type=password] {
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+}
+
+.sign-form input[type=submit] {
+    background-color: #3E3E3E;
+    border: 1px #3E3E3E solid;
+    color: #FFF;
+} 
+
+.sign-form input[type=submit]:hover {
+    background-color: #222;
+    border: 1px #222 solid;
+    cursor: pointer;
+}
+
+.sign-form label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.error-box {
+    background-color: #E84C3D;
+    margin-top: 20px;
+    padding: 0.5em 25px;
+    color: #FFF;
+}
+
+.error-box p {
+    border-left: 1px dashed;
+    padding: 0 0.5em;
+    margin: 1em 0;
+}
+
+.message p {
+    padding: 1em 0;
+    border-bottom: 1px #D8DEE2 solid;
+}
+
+.message p:last-child {
+    border-bottom: none;
+}
+
+.footer {
+    line-height: 47px;
+    border-top: 1px #D8DEE2 solid;
+    font-size: 13px;
+}
